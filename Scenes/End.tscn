@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://c41lw3roab0h7"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_wg3pt"]
+font_size = 64
+
+[node name="End" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+offset_right = 800.0
+offset_bottom = 600.0
+size_flags_horizontal = 4
+text = "You Won
+Congrats"
+label_settings = SubResource("LabelSettings_wg3pt")
+horizontal_alignment = 1
+vertical_alignment = 1
